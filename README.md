@@ -31,13 +31,17 @@ See [`src/hubot-links.coffee`](src/hubot-links.coffee) for full documentation.
 
 Command | Listener ID | Description
 --- | --- | ---
-hubot links `number` | `links.list` | Returns the last `number` links shared
+hubot links clear | `links.clear` | Clears all tracked links
+hubot links list `[number]` | `links.list` | Returns the last 5 (or `number` if specified) links shared
 
 
 ## Sample Interaction
 
 ```
+user1>> https://www.fyianlai.com/
 user1>> https://github.com/ClaudeBot/hubot-links
-user1>> hubot links 1
+user1>> hubot links list 1
 hubot>> https://github.com/ClaudeBot/hubot-links
+user1>> hubot links clear
+hubot>> user1: Cleared all tracked links.
 ```
