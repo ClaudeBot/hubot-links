@@ -1,0 +1,46 @@
+{
+  "name": "hubot-links",
+  "description": "A Hubot script for keeping track of what's been shared.",
+  "version": "0.0.0",
+  "author": "Ian Lai <os@fyianlai.com>",
+  "license": "MIT",
+
+  "keywords": "hubot, hubot-scripts, links, history, log",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ClaudeBot/hubot-links.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/ClaudeBot/hubot-links/issues"
+  },
+
+  "dependencies": {
+  },
+
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "coffee-script": "^1.9.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-release": "~0.13.0",
+    "hubot": "2.x",
+    "matchdep": "~0.3.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
