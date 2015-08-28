@@ -31,12 +31,13 @@ See [`src/hubot-links.coffee`](src/hubot-links.coffee) for full documentation.
 
 Command | Listener ID | Description
 --- | --- | ---
-hubot hello | hello | what the respond trigger does
+hubot links `number` | links.list | Returns the last `number` links shared
 
 
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> 
+user1>> hubot links 1
+hubot>> 
 ```
