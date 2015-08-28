@@ -31,13 +31,13 @@ See [`src/hubot-links.coffee`](src/hubot-links.coffee) for full documentation.
 
 Command | Listener ID | Description
 --- | --- | ---
-hubot links `number` | links.list | Returns the last `number` links shared
+hubot links `number` | `links.list` | Returns the last `number` links shared
 
 
 ## Sample Interaction
 
 ```
-user1>> 
+user1>> https://github.com/ClaudeBot/hubot-links
 user1>> hubot links 1
-hubot>> 
+hubot>> https://github.com/ClaudeBot/hubot-links
 ```
